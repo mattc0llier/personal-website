@@ -1,0 +1,45 @@
+* {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Barlow", sans-serif;
+}
+
+.hero {
+  background-image: linear-gradient(#8e78ff, #fc7d7b);
+  display: flex;
+  flex-direction: column;
+  font-size: 18pt;
+  color: #ffffff;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 960px) {
+}
